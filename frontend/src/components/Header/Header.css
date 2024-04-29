@@ -1,0 +1,47 @@
+/* header {
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s; 
+  } */
+
+  .header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    /* transition: .3s ease-in; */
+    transition: all 1.5s; 
+    /* overflow: hidden; */
+}
+  .header-l {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    transition: .3s ease-in;
+    /* overflow: hidden; */
+
+}
+.header-bg{
+    background-color: white;
+}
+.logo {
+    transition: .3s ease-in;
+    transition: .3s ease-out;
+}
+.active {
+    border-bottom: 2px solid #dbb9a0;
+    /* transition: all 1.5s; 47172d  */
+  }
+
+  .a-h {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s; 
+  }
+  
+  .a-h:hover {
+    border-bottom: 2px solid #dbb9a0;
+  }

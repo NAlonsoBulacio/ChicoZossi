@@ -1,7 +1,8 @@
 import logo from "./images/logo_blanco.png";
 import menu from "./images/menu.svg";
 import logo_negro from "./images/logo_negro.png";
-import logo_dorado from "./images/logo_dorado.png";
+import logo_dorado from "./images/logo_dorado.png"; 
+import logo_noname from "./images/logo_dorado_.png"; 
 import wave from "./images/wave.png";
 import wave2 from "./images/wave2.png";
 import wave3 from "./images/wave3.png";
@@ -10,6 +11,7 @@ import wave5 from "./images/wave5.png";
 import wave8 from "./images/wave8.png";
 import logo_purple from "./images/logo_purple.png";
 import imageDescription from "./images/imgDescription.png";
+import imageDescription2 from "./images/imgDescription2.png";
 import description from "./images/description.png";
 import paisaje_cartel from "./images/paisajes/paisaje_cartel.png";
 import botellas from "./images/paisajes/botellas.png";
@@ -45,4 +47,6 @@ export {
     botellas_banner,
     banner_about,
     botella,
+    logo_noname,
+    imageDescription2
 }

@@ -1,12 +1,12 @@
 import React from "react";
-import { imageDescription, description, paisaje_cartel } from "../../assets";
+import { imageDescription2, description, paisaje_cartel } from "../../assets";
 
 const ImgAndDescription = () => {
   return (
     <div className="relative w-full h-auto my-20 overflow-hidden">
       <img
         className="hidden lg:block w-full h-full object-cover"
-        src={imageDescription}
+        src={imageDescription2}
         alt=""
       />
       <div className="hidden lg:flex w-[50%] absolute justify-center items-center right-0 top-[23%] lg:px-14 xl:px-24">

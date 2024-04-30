@@ -47,30 +47,31 @@ const ImageGallery = () => {
     ],
   };
 
-//   const handleFullScreen = () => {
-//     setFullscreen(!fullscreen);
-//   };
+  //   const handleFullScreen = () => {
+  //     setFullscreen(!fullscreen);
+  //   };
 
   return (
     <div className="px-10 lg:px-20 relative">
-        {fullscreen && (
-          <div className="absolute w-[100vh] h-[100vh] inset-0 bg-[#61616138] opacity-75 z-10"></div>
-        )}
+      {fullscreen && (
+        <div className="absolute w-[100vh] h-[100vh] inset-0 bg-[#61616138] opacity-75 z-10"></div>
+      )}
+      <p className="text-3xl py-6 font-lato-500">Galeria de Imagenes
+      </p>
       <div className="">
-        
         <Slider {...settings} className="">
           {galleryImages?.map((img, index) => (
             <div key={index} className="px-2 overflow-hidden">
               <div
-                className={`w-max-screen h-max-screen flex flex-wrap justify-center items-start overflow-hidden relative`}
+                className={`rounded-md w-max-screen h-max-screen flex flex-wrap justify-center items-start overflow-hidden relative`}
               >
                 <img
                   src={img}
                   alt="img_before"
-                  className={`hover:scale-110 duration-300 cursor-pointer z-20 ${
+                  className={`rounded-md hover:scale-110 duration-300 cursor-pointer z-20 ${
                     fullscreen ? " w-[30%] h-[20%]" : ""
                   }`}
-                //   onClick={() => handleFullScreen()}
+                  //   onClick={() => handleFullScreen()}
                 />
 
                 {fullscreen && (

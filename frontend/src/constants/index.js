@@ -2,6 +2,7 @@ const wines = [
   {
     id: 1,
     name: "Continuación - Gran Reserva",
+    title: "Gran Reserva",
     type: "malbec",
     img: "https://res.cloudinary.com/doczyujqf/image/upload/v1714329192/Chico%20zossi/vinos/continuacion_ypqrnr.png",
     img2: "https://res.cloudinary.com/doczyujqf/image/upload/v1713967338/Chico%20zossi/vinos/rosado-tardio.png",
@@ -17,6 +18,7 @@ const wines = [
   {
     id: 2,
     name: "Primer - Malbec Reserva",
+    title: "Malbec Reserva",
     type: "malbec",
     img: "https://res.cloudinary.com/doczyujqf/image/upload/v1714328838/Chico%20zossi/vinos/primer_emwcho.png",
     img2: "https://res.cloudinary.com/doczyujqf/image/upload/v1713971290/Chico%20zossi/vinos/rosado-tardio2_1_mxpg0j.png",
@@ -43,7 +45,7 @@ const wines = [
   },
   {
     id: 4,
-    name: "Torrontés Seco",
+    name: "Torrontés",
     type: "torrontes",
     img: "https://res.cloudinary.com/doczyujqf/image/upload/v1714329070/Chico%20zossi/vinos/torrontes_dxlcba.png",
     img2: "https://res.cloudinary.com/doczyujqf/image/upload/v1713971290/Chico%20zossi/vinos/rosado-tardio2_1_mxpg0j.png",
@@ -93,7 +95,7 @@ const wines = [
   },
   {
     id: 8,
-    name: "Espumante CHZ",
+    name: "Torrontes Brut Nature",
     type: "espumante",
     img: "https://res.cloudinary.com/doczyujqf/image/upload/v1714328416/Chico%20zossi/vinos/epumante_vaytox.png",
     img2: "https://res.cloudinary.com/doczyujqf/image/upload/v1713971290/Chico%20zossi/vinos/rosado-tardio2_1_mxpg0j.png",

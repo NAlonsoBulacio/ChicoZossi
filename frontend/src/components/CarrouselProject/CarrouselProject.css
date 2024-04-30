@@ -46,7 +46,7 @@
   }
   .title-over-image {
     position: absolute;
-    top: 67%; /* Coloca el texto en el centro vertical */
+    top: 63%; /* Coloca el texto en el centro vertical */
     left: 50%; /* Coloca el texto en el centro horizontal */
     transform: translate(-50%, -50%); /* Centra el texto */
     text-align: center; /* Alineación del texto */

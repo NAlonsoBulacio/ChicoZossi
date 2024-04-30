@@ -133,7 +133,7 @@ const Header = () => {
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {continuacion?.map((wine) => (
                         <li className="w-[200px] text-left hover:underline cursor-pointer ">
-                          <a href={`/vino/${wine.id}`}>{wine.name}</a>
+                          <a href={`/vino/${wine.id}`}>{wine.title}</a>
                         </li>
                       ))}
                     </ul>
@@ -143,7 +143,7 @@ const Header = () => {
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {primer?.map((wine) => (
                         <li className="w-[200px] text-left hover:underline cursor-pointer ">
-                          <a href={`/vino/${wine.id}`}>{wine.name}</a>
+                          <a href={`/vino/${wine.id}`}>{wine.title}</a>
                         </li>
                       ))}
                     </ul>

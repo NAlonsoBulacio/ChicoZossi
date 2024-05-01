@@ -56,7 +56,7 @@ const ImageGallery = () => {
       {fullscreen && (
         <div className="absolute w-[100vh] h-[100vh] inset-0 bg-[#61616138] opacity-75 z-10"></div>
       )}
-      <p className="text-3xl py-6 font-lato-500">Galeria de Imagenes
+      <p className="text-3xl py-6 font-lora-500">Galeria de Imagenes
       </p>
       <div className="">
         <Slider {...settings} className="">

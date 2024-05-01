@@ -52,14 +52,14 @@ const CarrouselProject = () => {
           className="carousel-img image-fade-in-zoom"
         />
         {/* <h2 className="title-over font-lora-400 text-xl">Bodega Chico Zossi </h2> */}
-        <div className="w-full flex justify-center py-2 absolute top-[34%] z-10">
-          <div className="w-1/5 flex flex-wrap justify-center ">
-            <div className="w-[40%] flex justify-center py-3">
+        <div className="w-full flex justify-center py-2 absolute top-[26%] lg:top-[34%] z-10">
+          <div className="w-1/4 lg:w-1/5 flex flex-wrap justify-center ">
+            <div className="w-full lg:w-[40%] flex justify-center py-3">
               <img className="w-full px-4" src={logo_noname} alt="" />
             </div>
             <div className="w-[100%] flex justify-center items-center space-x-3">
               <div className="flex-1 border-t border-gray-400 border-[1px]"></div>
-              <img className="w-10" src={wave8} alt="" />
+              <img className="w-8 lg:w-10" src={wave8} alt="" />
               <div className="flex-1 border-t border-gray-400 border-[1px]"></div>
             </div>
           </div>

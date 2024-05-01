@@ -8,8 +8,8 @@ import { logo } from "../../assets";
 const Footer = () => {
   return (
     <div className="w-full flex flex-wrap justify-center items-center bg-[#47172d] py-12">
-      <div className="w-full flex justify-center items-center px-28 py-4 space-x-14">
-        <div className="w-1/3 flex flex-wrap justify-center items-center space-y-3">
+      <div className="w-full flex flex-wrap lg:flex-nowrap justify-center items-center px-4 lg:px-28 py-4 space-x-0 lg:space-x-14">
+        <div className="w-full lg:w-1/3 hidden lg:flex flex-wrap justify-center items-center space-y-3">
           <div className="w-full ">
             <a href="/" className="text-gray-300 text-left ">
               {`Home >`}
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-1/3 flex flex-wrap justify-center items-center space-y-2">
+        <div className="w-full lg:w-1/3 flex flex-wrap justify-center items-center space-y-2">
           <img src={logo} alt="logo" className="w-1/2" />
           <div className="w-full flex justify-center items-center text-left text-xl text-gray-300">
             <h1>Nuestros Vinos</h1>
@@ -125,7 +125,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-1/3 flex flex-wrap justify-center items-center space-y-2">
+        <div className="w-full lg:w-1/3 flex flex-wrap justify-center items-center space-y-2">
           <div className="w-full flex justify-center items-center text-left text-xl text-gray-300">
             <h1>Contacto</h1>
           </div>

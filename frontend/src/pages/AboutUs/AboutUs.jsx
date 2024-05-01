@@ -30,7 +30,7 @@ const AboutUs = () => {
             </h1>
             <img
               className="lg:hidden w-full object-cover object-center"
-              src="https://res.cloudinary.com/doczyujqf/image/upload/v1713979157/Chico%20zossi/banner1_1_3_1_boqszu.png"
+              src={img_about3}
               alt=""
             />
             <p className="text-left text-lg text-gray-800">
@@ -65,7 +65,7 @@ const AboutUs = () => {
             </h1>
             <img
               className="lg:hidden w-full object-cover object-center"
-              src="https://res.cloudinary.com/doczyujqf/image/upload/v1713983212/Chico%20zossi/leozaragoza_rafitagallucci_chz_otros_0_1_nrcpo5.png"
+              src={img_about}
               alt=""
             />
             <p className="text-left text-lg text-gray-800">
@@ -88,7 +88,7 @@ const AboutUs = () => {
             </h1> */}
             <img
               className="lg:hidden w-full object-cover object-center"
-              src="https://res.cloudinary.com/doczyujqf/image/upload/v1713979157/Chico%20zossi/banner1_1_3_1_boqszu.png"
+              src={img_about2}
               alt=""
             />
             <p className="text-left text-lg text-gray-800">

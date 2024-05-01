@@ -55,10 +55,10 @@
   }
   @media (max-width: 768px) {
     .carousel-div {
-      height: 80vh; 
+      height: 70vh; 
     }
     .carousel-slider {
-      height: 80vh;
+      height: 70vh;
     }
     .carousel-img {
       height: 100%; 

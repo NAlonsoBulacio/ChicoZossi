@@ -23,7 +23,7 @@ const Wine = ({ match }) => {
     <div>
       <Header />
       <BannerWine />
-      <div className="w-full flex justify-center items-center pb-10 pt-20">
+      <div className="w-full flex justify-center items-center pt-8 pb-8 lg:pb-10 lg:pt-20">
         <img src={wave5} className="w-20 lg:w-24 " alt="" />
         <div className="text-2xl lg:text-3xl font-lato-400 mx-2 lg:mx-4 text-gray-600">
           Nuestros Vinos

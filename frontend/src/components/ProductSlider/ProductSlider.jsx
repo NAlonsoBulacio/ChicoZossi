@@ -52,8 +52,9 @@ const ProductSlider = ({ title }) => {
           <div className="text-left text-4xl font-lora-600 mx-12 text-gray-800">
             {title}
           </div>
-          <img src={wave4} className="w-[100px] lg:w-[140px] " alt="" />
           <img src={wave5} className="block lg:hidden w-[100px] lg:w-[140px] " alt="" />
+          <img src={wave4} className="w-[100px] lg:w-[140px] " alt="" />
+          
           {/* <div className="w-full flex-1 border-t border-[#47172d] border-[1px]"></div> */}
         </div>
       </div>

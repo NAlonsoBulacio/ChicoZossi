@@ -4,7 +4,7 @@ import { logo_dorado, wave8, botellas, logo_noname, banner_vida } from "../../as
 const CarrouselProject = () => {
   const images = [
     "https://res.cloudinary.com/doczyujqf/image/upload/v1713979157/Chico%20zossi/banner1_1_3_1_boqszu.png",
-    botellas,
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1714586540/Chico%20zossi/Galeria%20de%20imagenes/botellas_mzrdyq.png",
     banner_vida
   ];
   const [selectedIndex, setSelectedIndex] = useState(0);

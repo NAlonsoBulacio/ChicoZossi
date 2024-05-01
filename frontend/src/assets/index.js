@@ -14,10 +14,7 @@ import imageDescription from "./images/imgDescription.png";
 import imageDescription2 from "./images/imgDescription2.png";
 import description from "./images/description.png";
 import paisaje_cartel from "./images/paisajes/paisaje_cartel.png";
-import botellas from "./images/paisajes/botellas.png";
-import botellas2 from "./images/paisajes/botellas2.png";
-import botellas3 from "./images/paisajes/botellas3.png";
-import botella from "./images/paisajes/botella.png";
+
 
 import abuela_nieta_banner from "./images/paisajes/banner/abuela_nieta.png";
 import botellas_banner from "./images/paisajes/banner/botellas_banner.png";
@@ -30,6 +27,7 @@ import banner_vida from "./images/paisajes/proyect_vendimia.png";
 import img_about from "./images/paisajes/img_about.jpg";
 import img_about2 from "./images/paisajes/img_about2.png";
 import img_about3 from "./images/paisajes/img_about3.png";
+
 
 export {
     logo,
@@ -46,14 +44,10 @@ export {
     imageDescription,
     description,
     paisaje_cartel,
-    botellas,
-    botellas2,
-    botellas3,
     abuela_nieta_banner,
     botellas2_banner,
     botellas_banner,
     banner_about,
-    botella,
     logo_noname,
     imageDescription2,
     historia2,

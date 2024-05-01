@@ -13,7 +13,7 @@ const ImageGallery = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: fullscreen ? 1 : 5,
+    slidesToShow: fullscreen ? 1 : 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,

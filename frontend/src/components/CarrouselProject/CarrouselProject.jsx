@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./CarrouselProject.css";
-import { logo_dorado, wave8, botellas, logo_noname, botellas3 } from "../../assets";
+import { logo_dorado, wave8, botellas, logo_noname, banner_vida } from "../../assets";
 const CarrouselProject = () => {
   const images = [
     "https://res.cloudinary.com/doczyujqf/image/upload/v1713979157/Chico%20zossi/banner1_1_3_1_boqszu.png",
     botellas,
+    banner_vida
   ];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);

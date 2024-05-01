@@ -7,6 +7,8 @@ const wines = [
     img: "https://res.cloudinary.com/doczyujqf/image/upload/v1714329192/Chico%20zossi/vinos/continuacion_ypqrnr.png",
     img2: "https://res.cloudinary.com/doczyujqf/image/upload/v1713967338/Chico%20zossi/vinos/rosado-tardio.png",
     lead: "ES PASADO, PRESENTE Y FUTURO...UN HOMENAJE A NUESTROS ANCESTROS Y LA REALIZACIÓN DE LOS SUEÑOS. ESPECIAL Y DIVINO. ES EL FRUTO DEL TERROIR DEL QUE VENIMOS",
+    main_description:
+      "¨ES PASADO, PRESENTE Y FUTURO... UN HOMENAJE A NUESTROS ANCESTROS Y LA REALIZACIÓN DE LOS SUEÑOS. ESPECIAL Y DIVINO. ES EL FRUTO DEL TERROIR DEL QUE VENIMOS¨",
     description: [
       "Nuestro Malbec Gran Reserva reposa en barricas nuevas de roble francés por 14 meses.",
       "Exhibe sabores complejos y una elegancia notable, la fusión perfecta entre la fruta madura y los sutiles matices tostados de la madera, que culminan en un final suave y persistente.",
@@ -14,6 +16,7 @@ const wines = [
     volume: "750ml",
     aclaration: "-Edición Limitada",
     variety: 1,
+    limited_edition: "Edicion Limitada - Botella Numerada",
   },
   {
     id: 2,
@@ -29,6 +32,7 @@ const wines = [
     ],
     volume: "750ml",
     variety: 2,
+    limited_edition: "Edicion Limitada - Botella Numerada",
   },
   {
     id: 3,
@@ -54,7 +58,6 @@ const wines = [
     ],
     volume: "750ml",
     variety: 3,
-
   },
   {
     id: 5,
@@ -67,7 +70,6 @@ const wines = [
     ],
     volume: "500ml",
     variety: 3,
-
   },
   {
     id: 6,
@@ -80,7 +82,6 @@ const wines = [
     ],
     volume: "750ml",
     variety: 3,
-
   },
   {
     id: 7,
@@ -91,7 +92,6 @@ const wines = [
     description: [` `],
     volume: "750ml",
     variety: 3,
-
   },
   {
     id: 8,
@@ -105,7 +105,6 @@ const wines = [
     ],
     volume: "750ml",
     variety: 4,
-
   },
   {
     id: 9,
@@ -119,7 +118,6 @@ const wines = [
     ],
     volume: "500ml",
     variety: 3,
-
   },
 ];
 export { wines };

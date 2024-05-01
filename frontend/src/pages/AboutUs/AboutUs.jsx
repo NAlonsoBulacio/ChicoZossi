@@ -3,7 +3,7 @@ import ContactUs from "../../components/ContactUs/ContactUs";
 import Footer from "../../components/Footer/Footer";
 import BannerAbout from "../../components/Banners/BannerAbout";
 import Header from "../../components/Header/Header";
-import { wave4, wave5, wave } from "../../assets";
+import { wave4, wave5, img_about, img_about2, img_about3 } from "../../assets";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 const AboutUs = () => {
   return (
@@ -45,7 +45,7 @@ const AboutUs = () => {
           <div className="w-full lg:w-[60%] hidden lg:flex justify-end items-start overflow-hidden rounded-lg">
             <img
               className="w-full object-cover object-center"
-              src="https://res.cloudinary.com/doczyujqf/image/upload/v1713979157/Chico%20zossi/banner1_1_3_1_boqszu.png"
+              src={img_about3}
               alt=""
             />
           </div>
@@ -55,7 +55,7 @@ const AboutUs = () => {
           <div className="w-full  lg:w-[40%] hidden lg:flex justify-center items-start overflow-hidden rounded-lg">
             <img
               className="w-[70%] object-cover object-center rounded-3xl"
-              src="https://res.cloudinary.com/doczyujqf/image/upload/v1713983212/Chico%20zossi/leozaragoza_rafitagallucci_chz_otros_0_1_nrcpo5.png"
+              src={img_about}
               alt=""
             />
           </div>
@@ -106,7 +106,7 @@ const AboutUs = () => {
           <div className="w-full  lg:w-[60%] hidden lg:flex items-start overflow-hidden rounded-lg">
             <img
               className="w-full object-cover object-center"
-              src="https://res.cloudinary.com/doczyujqf/image/upload/v1713979157/Chico%20zossi/banner1_1_3_1_boqszu.png"
+              src={img_about2}
               alt=""
             />
           </div>

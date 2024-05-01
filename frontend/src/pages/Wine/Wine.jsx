@@ -30,7 +30,7 @@ const Wine = ({ match }) => {
         </div>
         <img src={wave4} className="w-24 " alt="" />
       </div>
-      <div className="lg:px-8 xl:px-20">
+      <div className="pb-4 lg:pb-14 lg:px-8 xl:px-20 space-y-6 lg:space-y-14">
         {wine ? (
           <div className="px-2 lg:px-8 xl:px-20 flex flex-wrap justify-center">
             <div className="w-full flex flex-wrap ">
@@ -49,6 +49,15 @@ const Wine = ({ match }) => {
                   </div>
                 </div>
                 <div>
+                  {wine.main_description ? (
+                    <div className="w-[80%] flex flex-wrap gap-y-6 justify-start ">
+                      <p className="w-full text-gray-700 text-md font-lato-500 text-left py-2">
+                        {wine.main_description}
+                      </p>
+                    </div>
+                  ) : (
+                    ""
+                  )}
                   {wine.description?.map((des) => (
                     <div className="w-[80%] flex flex-wrap gap-y-6 justify-start ">
                       <p className="w-full text-gray-500 text-md font-lato-300 text-left py-2">
@@ -63,6 +72,7 @@ const Wine = ({ match }) => {
                     <span className="font-normal">1800 MSNM</span>
                   </p>
                   <p className="font-bold">Cosecha manual </p>
+                  {wine.limited_edition ? <p className="font-bold">{wine.limited_edition} </p> : ""}
                   <p className="font-bold">
                     Finca <span>¨La Perseverancia¨</span> Colalao del Valle -
                     Tucumán

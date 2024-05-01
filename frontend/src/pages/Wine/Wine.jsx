@@ -36,7 +36,7 @@ const Wine = ({ match }) => {
             <div className="w-full flex flex-wrap ">
               <div className="w-full lg:w-[50%] space-y-4">
                 <p className="text-left text-xl ">{wine.type}</p>
-                <h1 className="text-[#47172d] text-left text-5xl font-lora-500 ">
+                <h1 className="text-[#47172d] text-left text-3xl lg:text-5xl font-lora-500 ">
                   {wine.name}
                 </h1>
                 <div className="flex lg:hidden w-full justify-center ">

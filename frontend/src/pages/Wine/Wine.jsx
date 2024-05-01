@@ -24,11 +24,11 @@ const Wine = ({ match }) => {
       <Header />
       <BannerWine />
       <div className="w-full flex justify-center items-center pb-10 pt-20">
-        <img src={wave5} className="w-24 " alt="" />
-        <div className="text-3xl font-lato-400 mx-4 text-gray-600">
+        <img src={wave5} className="w-20 lg:w-24 " alt="" />
+        <div className="text-2xl lg:text-3xl font-lato-400 mx-2 lg:mx-4 text-gray-600">
           Nuestros Vinos
         </div>
-        <img src={wave4} className="w-24 " alt="" />
+        <img src={wave4} className="w-20 lg:w-24 " alt="" />
       </div>
       <div className="pb-4 lg:pb-14 lg:px-8 xl:px-20 space-y-6 lg:space-y-14">
         {wine ? (
@@ -72,7 +72,11 @@ const Wine = ({ match }) => {
                     <span className="font-normal">1800 MSNM</span>
                   </p>
                   <p className="font-bold">Cosecha manual </p>
-                  {wine.limited_edition ? <p className="font-bold">{wine.limited_edition} </p> : ""}
+                  {wine.limited_edition ? (
+                    <p className="font-bold">{wine.limited_edition} </p>
+                  ) : (
+                    ""
+                  )}
                   <p className="font-bold">
                     Finca <span>¨La Perseverancia¨</span> Colalao del Valle -
                     Tucumán

@@ -5,7 +5,7 @@ import SamplePrevArrow from "../../utils/SamplePrevArrow";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { wines } from "../../constants";
-import { wave4 } from "../../assets";
+import { wave4, wave5 } from "../../assets";
 const ProductSlider = ({ title }) => {
   const settings = {
     infinite: true,
@@ -47,12 +47,13 @@ const ProductSlider = ({ title }) => {
   return (
     <div className="gap-y-10">
       <div className="w-full flex flex-wrap justify-center items-center gap-2">
-        <div className="w-full flex flex-wrap justify-start items-center  px-">
+        <div className="w-full flex flex-wrap justify-center lg:justify-start items-center  px-">
           {/* <div className="flex-1 border-t border-[#47172d] border-[1px]"></div> */}
           <div className="text-left text-4xl font-lora-600 mx-12 text-gray-800">
             {title}
           </div>
-          <img src={wave4} className="w-[140px] " alt="" />
+          <img src={wave4} className="w-[100px] lg:w-[140px] " alt="" />
+          <img src={wave5} className="block lg:hidden w-[100px] lg:w-[140px] " alt="" />
           {/* <div className="w-full flex-1 border-t border-[#47172d] border-[1px]"></div> */}
         </div>
       </div>

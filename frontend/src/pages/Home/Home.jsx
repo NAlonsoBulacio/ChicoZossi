@@ -10,9 +10,9 @@ const Home = () => {
     <div>
       <Header />
       <CarrouselProject />
-      <div className="px-2 lg:px-8 xl:px-20 py-12">
-        <ProductSlider title={"Nuestros Vinos"} />
+      <div className="px-2 lg:px-8 xl:px-20 space-y-10 pt-0 lg:py-20">
         <ImgAndDescription />
+        <ProductSlider title={"Nuestros Vinos"} />
         <ContactAndLocation />
       </div>
       <Footer />

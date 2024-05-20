@@ -14,7 +14,9 @@ import imageDescription from "./images/imgDescription.png";
 import imageDescription2 from "./images/imgDescription2.png";
 import description from "./images/description.png";
 import paisaje_cartel from "./images/paisajes/paisaje_cartel.png";
-
+import historia4 from "./images/paisajes/historia4.jpg";
+import historia5 from "./images/paisajes/historia2.jpg"
+import vinia from "./images/paisajes/vinia.jpg";
 
 import abuela_nieta_banner from "./images/paisajes/banner/abuela_nieta.png";
 import botellas_banner from "./images/paisajes/banner/botellas_banner.png";
@@ -57,4 +59,7 @@ export {
     img_about,
     img_about2,
     img_about3,
+    historia4,
+    historia5,
+    vinia,
 }

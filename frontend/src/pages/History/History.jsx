@@ -3,7 +3,7 @@ import ContactUs from "../../components/ContactUs/ContactUs";
 import Footer from "../../components/Footer/Footer";
 import BannerHistory from "../../components/Banners/BannerHistory";
 import Header from "../../components/Header/Header";
-import { wave4, wave5, botella, wave, historia3 } from "../../assets";
+import { wave4, wave5, botella, wave, historia5 } from "../../assets";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 const History = () => {
   return (
@@ -55,7 +55,7 @@ const History = () => {
           <div className="w-full lg:w-[35%] hidden lg:flex justify-end items-start overflow-hidden rounded-lg">
             <img
               className="w-full object-cover object-center"
-              src={historia3}
+              src={historia5}
               alt=""
             />
           </div>

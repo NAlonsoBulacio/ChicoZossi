@@ -122,7 +122,7 @@ const Header = () => {
               onClick={() => handleNavClick("/bodega")}
               className={currentPage === "/bodega" ? "active" : "a-h"}
             >
-              Bodega
+              Viñedo
             </a>
             <a
               onClick={() => handleNavClick("/vino/2")}
@@ -224,7 +224,7 @@ const Header = () => {
                   <a href="/">Inicio</a>
                 </li>
                 <li className="font-normal hover:font-bold items-center text-2xl text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0">
-                  <a href="/Bodega">Bodega</a>
+                  <a href="/Bodega">Viñedo</a>
                 </li>
                 <li className="font-normal hover:font-bold items-center text-2xl text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0">
                   Nuestros Vinos:

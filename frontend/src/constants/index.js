@@ -25,8 +25,8 @@ const wines = [
     type: "malbec",
     img: "https://res.cloudinary.com/doczyujqf/image/upload/v1714328838/Chico%20zossi/vinos/primer_emwcho.png",
     img2: "https://res.cloudinary.com/doczyujqf/image/upload/v1713971290/Chico%20zossi/vinos/rosado-tardio2_1_mxpg0j.png",
+    main_description:`"Primer" es el homenaje a nuestros antepasados, pioneros de la vitivinicultura en Tucuman. `,
     description: [
-      `"Primer" es el homenaje a nuestros antepasados, pioneros de la vitivinicultura en Tucuman. `,
       "Bajo la práctica de agricultura orgánica continuamos con la tradición familiar, obteniendo este varietal de altura que expresa el espíritu de su incomparable origen. A la vista se presenta de color rubí intenso con reflejos que denotan su contacto con el roble. ",
       "Aroma de frutos rojos maduros donde exalta la ciruela con toque especiado de pimienta negra. En boca es estructurado de taninos maduros que refuerzan el carácter varietal.",
     ],

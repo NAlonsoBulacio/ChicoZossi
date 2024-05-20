@@ -18,7 +18,7 @@ const Wine = ({ match }) => {
       }
     }
   }, [match.params.id]);
-  console.log(wine);
+
   return (
     <div>
       <Header />
@@ -58,13 +58,13 @@ const Wine = ({ match }) => {
                   ) : (
                     ""
                   )}
-                  {wine.description?.map((des) => (
+                  {/* {wine.description?.map((des) => (
                     <div className="w-[80%] flex flex-wrap gap-y-6 justify-start ">
                       <p className="w-full text-gray-500 text-md font-lato-300 text-left py-2">
                         {des}
                       </p>
                     </div>
-                  ))}
+                  ))} */}
                 </div>
                 <div className="text-start space-y-1 text-[#47172d]">
                   <p className="font-bold">
@@ -81,7 +81,7 @@ const Wine = ({ match }) => {
                     Finca <span>¨La Perseverancia¨</span> Colalao del Valle -
                     Tucumán
                   </p>
-                  <p className="font-bold ">{wine.volume}</p>
+                  <p className="font-bold ">Botella de {wine.volume}</p>
                 </div>
               </div>
               <div className="hidden lg:flex w-full lg:w-[50%] px-10  justify-start ">

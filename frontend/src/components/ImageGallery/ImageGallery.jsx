@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { galleryImages } from "./index";
 import { wines } from "../../constants";
 
-const ImageGallery = () => {
+const ImageGallery = ({gallery}) => {
   const [fullscreen, setFullscreen] = useState(false);
 
   const settings = {
@@ -60,7 +60,7 @@ const ImageGallery = () => {
       </p>
       <div className="">
         <Slider {...settings} className="">
-          {galleryImages?.map((img, index) => (
+          {gallery?.map((img, index) => (
             <div key={index} className="px-2 overflow-hidden">
               <div
                 className={`rounded-md w-max-screen h-max-screen flex flex-wrap justify-center items-start overflow-hidden relative`}

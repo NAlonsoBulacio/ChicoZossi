@@ -5,6 +5,7 @@ import BannerAbout from "../../components/Banners/BannerAbout";
 import Header from "../../components/Header/Header";
 import { wave4, wave5, img_about, img_about2, img_about3, vinia, historia4 } from "../../assets";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
+import {galeria_viñedo} from "../../components/ImageGallery/index"
 const AboutUs = () => {
   return (
     <div>
@@ -122,7 +123,7 @@ const AboutUs = () => {
         <ContactUs />
 
       </div>
-      <ImageGallery />
+      <ImageGallery gallery={galeria_viñedo}/>
       <Footer />
     </div>
   );

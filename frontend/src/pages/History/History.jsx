@@ -5,6 +5,7 @@ import BannerHistory from "../../components/Banners/BannerHistory";
 import Header from "../../components/Header/Header";
 import { wave4, wave5, botella, wave, historia5 } from "../../assets";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
+import { galeria_historia } from "../../components/ImageGallery/index";
 const History = () => {
   return (
     <div>
@@ -70,7 +71,7 @@ const History = () => {
         </div>
         <ContactUs />
       </div>
-      <ImageGallery />
+      <ImageGallery gallery={galeria_historia} />
       <Footer />
     </div>
   );

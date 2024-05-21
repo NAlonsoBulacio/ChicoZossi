@@ -26,9 +26,9 @@ const AboutUs = () => {
         </div>
         <div className="flex flex-wrap justify-center items-start space-x-0 lg:space-x-8">
           <div className="w-full lg:w-[30%] flex flex-wrap justify-start items-start px-0 lg:px-10 space-y-3 lg:space-y-2">
-            <h1 className="text-2xl font-lato-500 tracking-[0.2rem] text-[#47172d]">
+            {/* <h1 className="text-2xl font-lato-500 tracking-[0.2rem] text-[#47172d]">
               Nuestros Viñedos
-            </h1>
+            </h1> */}
             <img
               className="lg:hidden w-full object-cover object-center"
               src={img_about3}

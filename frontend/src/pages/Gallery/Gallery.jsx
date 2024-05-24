@@ -12,8 +12,8 @@ const Gallery = () => {
     <div>
       <Header />
       <BannerAbout />
-      <p className="text-3xl py-6 font-lora-600">Galeria de Imagenes</p>
-      <ImageGallery gallery={galeria_viñedo} galeria="galeria" />
+      <p className="text-3xl py-14 font-lora-600">Galeria de Imagenes</p>
+      <div className="pb-6"><ImageGallery gallery={galeria_viñedo} galeria="galeria" /></div>
       <ImageGallery gallery={galeria_historia} galeria="galeria" />
       <Footer />
     </div>

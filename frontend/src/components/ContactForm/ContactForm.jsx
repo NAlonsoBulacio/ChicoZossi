@@ -10,9 +10,9 @@ const ContactForm = () => {
     message: "",
   });
 
-  const serviceId = "service_d3be1m";
-  const templateId = "template_bl7wx9y";
-  const apiKey = "2MjSYyOi2hn-e8l4w";
+  const serviceId = "service_tf4fz5e";
+  const templateId = "template_oyuteiv";
+  const apiKey = "Ukt44gaahould7x-y";
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

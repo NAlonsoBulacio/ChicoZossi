@@ -197,6 +197,13 @@ const Header = () => {
             >
               Contacto
             </a>
+            <a
+              href="/galeria"
+              onClick={() => handleNavClick("/galeria")}
+              className={currentPage === "/galeria" ? "active" : "a-h"}
+            >
+              Galeria de fotos
+            </a>
           </nav>
           {/* <div className="flex items-center ml-6">
             <button

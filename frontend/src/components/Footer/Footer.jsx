@@ -142,7 +142,7 @@ const Footer = () => {
             </div>
             <div className="w-full">
               <a
-                  href="mailto:info@chicozossi.com.ar"
+                  href="mailto:infobodegachicozossi@gmail.com"
                 target="_blank"
                 className="flex justify-center items-start"
               >

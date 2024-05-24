@@ -41,12 +41,12 @@ const DescriptionContact = () => {
           </div>
           <div className="w-full flex justify-start">
             <a
-              href="mailto:info@chicozossi.com.ar"
+              href="mailto:infobodegachicozossi@gmail.com"
               target="_blank"
               className="w-auto flex justify-start items-start hover:underline"
             >
               <IoMailOutline className="w-8" style={{ marginTop: "0.3rem" }} />
-              <h1>info@chicozossi.com.ar</h1>
+              <h1>infobodegachicozossi@gmail.com</h1>
             </a>
           </div>
           <div className="w-full flex justify-start">

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./CarrouselProject.css";
-import { logo_dorado, wave8, botellas, logo_noname, banner_vida } from "../../assets";
+import { logo_dorado, wave8, banner, logo_noname, banner_vida } from "../../assets";
 const CarrouselProject = () => {
   const images = [
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1716245438/Chico%20zossi/banner1_1_3_1_boqszu_2_mpbvge.png",
+    banner,
     banner_vida
   ];
   const [selectedIndex, setSelectedIndex] = useState(0);

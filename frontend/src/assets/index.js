@@ -18,6 +18,8 @@ import historia4 from "./images/paisajes/historia4.jpg";
 import historia5 from "./images/paisajes/historia2.jpg"
 import vinia from "./images/paisajes/vinia.jpg";
 
+import banner from "./images/banner1.webp"
+
 import abuela_nieta_banner from "./images/paisajes/banner/abuela_nieta.png";
 import botellas_banner from "./images/paisajes/banner/botellas_banner.png";
 import botellas2_banner from "./images/paisajes/banner/botellas3_banner.png";
@@ -30,7 +32,15 @@ import img_about from "./images/paisajes/img_about.jpg";
 import img_about2 from "./images/paisajes/img_about2.png";
 import img_about3 from "./images/paisajes/img_about3.png";
 
-
+import continuacion from "./vinos/continuacion.png";
+import espumante from "./vinos/espumante.png";
+import primer from "./vinos/primer.png";
+import rosado from "./vinos/rosado.png";
+import torrontes from "./vinos/torrontes.png";
+import torrontesDulce from "./vinos/torrontesDulce.png";
+import torrontesTardio from "./vinos/torrontesTardio.png";
+import rosadoTardio from "./vinos/rosadoTardio.png";
+import malbec from "./vinos/malbec.webp";
 export {
     logo,
     menu,
@@ -62,4 +72,15 @@ export {
     historia4,
     historia5,
     vinia,
+
+    continuacion,
+    espumante,
+    primer,
+    rosado,
+    torrontes,
+    torrontesDulce,
+    torrontesTardio,
+    rosadoTardio,
+    malbec,
+    banner
 }

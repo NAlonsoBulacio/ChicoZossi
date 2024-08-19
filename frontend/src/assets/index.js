@@ -40,7 +40,7 @@ import torrontes from "./vinos/torrontes.png";
 import torrontesDulce from "./vinos/torrontesDulce.png";
 import torrontesTardio from "./vinos/torrontesTardio.png";
 import rosadoTardio from "./vinos/rosadoTardio.png";
-import malbec from "./vinos/malbec.webp";
+import malbec from "./vinos/malbec.png";
 export {
     logo,
     menu,

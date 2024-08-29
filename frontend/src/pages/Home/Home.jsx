@@ -9,12 +9,20 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <CarrouselProject />
-      <div className="px-2 lg:px-8 xl:px-20 space-y-10 pt-0 lg:py-20">
-        <ImgAndDescription />
-        <ProductSlider title={"Nuestros Vinos"} />
-        <ContactAndLocation />
-      </div>
+      <section>
+        <CarrouselProject />
+      </section>
+      <section className="px-2 lg:px-8 xl:px-20 space-y-10 pt-0 lg:py-20">
+        <article>
+          <ImgAndDescription />
+        </article>
+        <article>
+          <ProductSlider title={"Nuestros Vinos"} />
+        </article>
+        <article>
+          <ContactAndLocation />
+        </article>
+      </section>
       <Footer />
     </div>
   );

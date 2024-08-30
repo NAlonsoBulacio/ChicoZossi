@@ -1,14 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import "./CarrouselProject.css";
-import {  wave8, banner, logo_noname, banner_vida } from "../../assets";
+import { wave8, banner, logo_noname, banner_vida } from "../../assets";
+
 const CarrouselProject = () => {
-  const images = [
-    banner,
-    banner_vida
-  ];
+  // Memorizar el array de imágenes para evitar que cambie en cada render
+  const images = useMemo(() => [banner, banner_vida], []);
+
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);
 
+  // Función para cambiar a la siguiente imagen, memorizada para evitar redefinición
+  const next = useCallback(() => {
+    const condition = selectedIndex < images.length - 1;
+    const nextIndex = condition ? selectedIndex + 1 : 0;
+    setSelectedImage(images[nextIndex]);
+    setSelectedIndex(nextIndex);
+  }, [selectedIndex, images]);
+
+  // Pre-cargar imágenes
   useEffect(() => {
     const preloadImages = () => {
       images.forEach((image) => {
@@ -19,6 +28,7 @@ const CarrouselProject = () => {
     preloadImages();
   }, [images]);
 
+  // Autoplay del carrusel
   useEffect(() => {
     const autoplayInterval = setInterval(() => {
       next();
@@ -27,20 +37,8 @@ const CarrouselProject = () => {
     return () => {
       clearInterval(autoplayInterval);
     };
-  }, [selectedIndex]);
+  }, [next]);
 
-  // const previous = () => {
-  //   const condition = selectedIndex > 0;
-  //   const nextIndex = condition ? selectedIndex - 1 : images.length -1;
-  //   setSelectedImage(images[nextIndex]);
-  //   setSelectedIndex(nextIndex);
-  // };
-  const next = () => {
-    const condition = selectedIndex < images.length - 1;
-    const nextIndex = condition ? selectedIndex + 1 : 0;
-    setSelectedImage(images[nextIndex]);
-    setSelectedIndex(nextIndex);
-  };
   return (
     <div className="carousel-div w-full">
       <div className="carousel-slider overflow-hidden">
@@ -50,9 +48,8 @@ const CarrouselProject = () => {
           alt="Imagen carrusel"
           className="carousel-img image-fade-in-zoom"
         />
-        {/* <h2 className="title-over font-lora-400 text-xl">Bodega Chico Zossi </h2> */}
         <div className="w-full flex justify-center py-2 absolute top-[26%] lg:top-[34%] z-10">
-          <div className="w-1/4 lg:w-1/5 flex flex-wrap justify-center ">
+          <div className="w-1/4 lg:w-1/5 flex flex-wrap justify-center">
             <div className="w-full lg:w-[40%] flex justify-center py-3">
               <img className="w-full px-4" src={logo_noname} alt="logo-name" />
             </div>

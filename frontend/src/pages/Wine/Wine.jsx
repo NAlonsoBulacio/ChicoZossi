@@ -18,7 +18,7 @@ const Wine = ({ match }) => {
         setWine(foundWine);
       }
     }
-  }, [match.params.id]);
+  }, [match.params.id, wineId]);
 
   return (
     <div>

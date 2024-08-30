@@ -7,7 +7,7 @@ const ImgAndDescription = () => {
       <img
         className="hidden lg:block w-full h-full object-cover"
         src={imageDescription2}
-        alt=""
+        alt="entrada-chico-zossi"
       />
       <div className="hidden lg:flex flex-col w-[50%] absolute justify-center items-center right-0 top-[13%] lg:px-14 xl:px-24 space-y-2">
         <p className="text-center text-xl  font-lora-600">
@@ -67,7 +67,7 @@ const ImgAndDescription = () => {
         </p>
       </div>
       <div className="flex lg:hidden">
-        <img className="object-contain w-full" src={paisaje_cartel} alt="" />
+        <img className="object-contain w-full" src={paisaje_cartel} alt="cartel-paisaje" />
       </div>
     </div>
   );

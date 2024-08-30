@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 const Contact = () => {
   return (
     <div>
-                  <Helmet>
+      <Helmet>
         <title>Contacto</title>
         <meta
           name="description"

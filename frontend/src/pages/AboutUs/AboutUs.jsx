@@ -22,25 +22,21 @@ const AboutUs = () => {
       <div className="flex flex-wrap justify-center items-center px-2 lg:px-10 xl:px-32 space-y-20 py-10">
         <div className="w-full flex flex-wrap justify-center items-center  space-y-6">
           <div className="w-[50%] flex justify-center items-center ">
-            <img src={wave5} className="w-24 " alt="" />
+            <img src={wave5} className="w-24 " alt="detalle-wave" />
             <div className="text-3xl font-lato-400 mx-4 text-gray-600">
               Nuestro Viñedo
             </div>
-            <img src={wave4} className="w-24 " alt="" />
+            <img src={wave4} className="w-24 " alt="detalle-wave" />
           </div>
-          {/* <p className="w-full px-0 lg:px-16 text-xl lg:text-xl text-center font-lora-500 text-gray-700">
-          Somos una bodega familiar pionera en Tucumán, especializada en vinos de altura que destacan el terroir de las tierras tucumanas. Fundada por Baltazar Chico en Colalao del Valle, nuestra misión es elaborar vinos y espumantes que capturen la esencia única del Valle Calchaquí, caracterizado por su altitud y clima distintivo. Bajo la dirección de Baltazar Chico Zossi, la cuarta generación de nuestra familia, continuamos esta tradición con pasión y dedicación.
-          </p> */}
+ 
         </div>
         <div className="flex flex-wrap justify-center items-start space-x-0 lg:space-x-8">
           <div className="w-full lg:w-[30%] flex flex-wrap justify-start items-start px-0 lg:px-10 space-y-3 lg:space-y-2">
-            {/* <h1 className="text-2xl font-lato-500 tracking-[0.2rem] text-[#47172d]">
-              Nuestros Viñedos
-            </h1> */}
+      
             <img
               className="lg:hidden w-full object-cover object-center"
               src={img_about3}
-              alt=""
+              alt="sobre-nosotros"
             />
             <p className="text-left text-lg text-gray-800">
               En nuestra finca ¨La Perseverancia¨ se destacan dos varietales: el
@@ -55,7 +51,7 @@ const AboutUs = () => {
             <img
               className="w-full object-cover object-center"
               src={img_about3}
-              alt=""
+              alt="sobre-nosotros"
             />
           </div>
         </div>
@@ -65,7 +61,7 @@ const AboutUs = () => {
             <img
               className="w-[70%] object-cover object-center rounded-3xl"
               src={historia4}
-              alt=""
+              alt="sobre-nosotros"
             />
           </div>
           <div className="w-full lg:w-[30%] flex flex-wrap justify-start px-0 lg:pr-16 items-start space-y-3 lg:space-y-2">
@@ -75,7 +71,7 @@ const AboutUs = () => {
             <img
               className="lg:hidden w-full object-cover object-center"
               src={historia4}
-              alt=""
+              alt="sobre-nosotros"
             />
             <p className="text-left text-lg text-gray-800">
               En Chico Zossi, la cosecha es un momento crucial en el año.
@@ -98,7 +94,7 @@ const AboutUs = () => {
             <img
               className="lg:hidden w-full object-cover object-center"
               src={vinia}
-              alt=""
+              alt="sobre-nosotros"
             />
             <p className="text-left text-lg text-gray-800">
               Nuestra cosecha se realiza de forma manual, con la selección
@@ -116,7 +112,7 @@ const AboutUs = () => {
             <img
               className="w-full object-cover object-center"
               src={vinia}
-              alt=""
+              alt="sobre-nosotros"
             />
           </div>
         </div>

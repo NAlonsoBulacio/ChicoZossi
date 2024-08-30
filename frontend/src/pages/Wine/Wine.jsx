@@ -32,11 +32,11 @@ const Wine = ({ match }) => {
       <Header />
       <BannerWine />
       <div className="w-full flex justify-center items-center pt-8 pb-8 lg:pb-10 lg:pt-20">
-        <img src={wave5} className="w-20 lg:w-24 " alt="" />
+        <img src={wave5} className="w-20 lg:w-24 " alt="detalle-wave" />
         <div className="text-2xl lg:text-3xl font-lato-400 mx-2 lg:mx-4 text-gray-600">
           Nuestros Vinos
         </div>
-        <img src={wave4} className="w-20 lg:w-24 " alt="" />
+        <img src={wave4} className="w-20 lg:w-24 " alt="detalle-wave" />
       </div>
       <div className="pb-4 lg:pb-14 lg:px-8 xl:px-20 space-y-6 lg:space-y-14">
         {wine ? (

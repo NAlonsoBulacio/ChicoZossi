@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../../assets/images/banner2.png";
 import { abuela_nieta_banner } from "../../assets";
 const BannerContact = () => {
   return (

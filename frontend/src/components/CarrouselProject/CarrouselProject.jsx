@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./CarrouselProject.css";
-import { logo_dorado, wave8, banner, logo_noname, banner_vida } from "../../assets";
+import {  wave8, banner, logo_noname, banner_vida } from "../../assets";
 const CarrouselProject = () => {
   const images = [
     banner,

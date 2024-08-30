@@ -1,5 +1,5 @@
 import React from "react";
-import { historia2, historia } from "../../assets";
+import {  historia } from "../../assets";
 const BannerHistory = () => {
   return (
     <div className="w-full flex flex-wrap justify-startitems-start lg:items-center relative h-auto lg:h-[60vh] overflow-hidden">

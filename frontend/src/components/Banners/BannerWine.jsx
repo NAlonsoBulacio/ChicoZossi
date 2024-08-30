@@ -1,6 +1,5 @@
 import React from "react";
-import banner from "../../assets/images/banner2.png";
-import { botellas2_banner, botellas_banner } from "../../assets";
+import { botellas2_banner} from "../../assets";
 const BannerWine = () => {
   return (
     <div className="w-full flex flex-wrap justify-start items-start lg:items-center relative h-auto lg:h-[60vh] overflow-hidden">

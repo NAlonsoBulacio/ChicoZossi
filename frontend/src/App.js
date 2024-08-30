@@ -12,7 +12,7 @@ const Gallery = lazy(() => import('./pages/Gallery/Gallery'));
 function App() {
   return (
     <div className="App font-lato-300 text-left">
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div></div>}>
         <Route exact path="/" component={Home} />
         <Route exact path="/bodega" component={AboutUs} />
         <Route exact path="/historia" component={History} />

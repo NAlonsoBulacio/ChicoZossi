@@ -23,7 +23,7 @@ const Wine = ({ match }) => {
   return (
     <div>
                   <Helmet>
-        <title>Bodega Chico Zossi | Vinos</title>
+        <title>Vinos</title>
         <meta
           name="description"
           content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."

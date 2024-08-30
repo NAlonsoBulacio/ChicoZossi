@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
                   <Helmet>
-        <title>Bodega Chico Zossi | Contacto</title>
+        <title>Contacto</title>
         <meta
           name="description"
           content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."

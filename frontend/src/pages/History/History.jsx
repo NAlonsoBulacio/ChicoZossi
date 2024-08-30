@@ -11,7 +11,7 @@ const History = () => {
   return (
     <div>
                   <Helmet>
-        <title>Bodega Chico Zossi | Historia</title>
+        <title>Historia</title>
         <meta
           name="description"
           content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."

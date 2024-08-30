@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <div>
             <Helmet>
-        <title>Bodega Chico Zossi | Bodega</title>
+        <title>Bodega</title>
         <meta
           name="description"
           content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."

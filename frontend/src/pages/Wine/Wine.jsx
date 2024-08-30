@@ -6,6 +6,7 @@ import BannerWine from "../../components/Banners/BannerWine";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import ProductSlider from "../../components/ProductSlider/ProductSlider";
 import { wave4, wave5 } from "../../assets";
+import { Helmet } from "react-helmet";
 const Wine = ({ match }) => {
   const [wine, setWine] = useState("");
   const wineId = parseInt(match.params.id);
@@ -21,6 +22,13 @@ const Wine = ({ match }) => {
 
   return (
     <div>
+                  <Helmet>
+        <title>Bodega Chico Zossi | Vinos</title>
+        <meta
+          name="description"
+          content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
+        />
+      </Helmet>
       <Header />
       <BannerWine />
       <div className="w-full flex justify-center items-center pt-8 pb-8 lg:pb-10 lg:pt-20">

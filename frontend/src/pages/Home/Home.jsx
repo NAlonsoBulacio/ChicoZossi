@@ -5,9 +5,17 @@ import ProductSlider from "../../components/ProductSlider/ProductSlider";
 import ContactAndLocation from "../../components/ContactAndLocation/ContactAndLocation";
 import Footer from "../../components/Footer/Footer";
 import ImgAndDescription from "../../components/ImgAndDescription/ImgAndDescription";
+import { Helmet } from "react-helmet";
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Bodega Chico Zossi | Home</title>
+        <meta
+          name="description"
+          content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
+        />
+      </Helmet>
       <Header />
       <section>
         <CarrouselProject />

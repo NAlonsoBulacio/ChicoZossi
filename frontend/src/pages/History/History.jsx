@@ -3,12 +3,20 @@ import ContactUs from "../../components/ContactUs/ContactUs";
 import Footer from "../../components/Footer/Footer";
 import BannerHistory from "../../components/Banners/BannerHistory";
 import Header from "../../components/Header/Header";
-import { wave4, wave5, botella, wave, historia5 } from "../../assets";
+import { wave4, wave5, wave, historia5 } from "../../assets";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import { galeria_historia } from "../../components/ImageGallery/index";
+import { Helmet } from "react-helmet";
 const History = () => {
   return (
     <div>
+                  <Helmet>
+        <title>Bodega Chico Zossi | Historia</title>
+        <meta
+          name="description"
+          content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
+        />
+      </Helmet>
       <Header /> 
       <BannerHistory />
       <div className="flex flex-wrap justify-center items-center px-2 lg:px-10 xl:px-32 space-y-10 py-10">

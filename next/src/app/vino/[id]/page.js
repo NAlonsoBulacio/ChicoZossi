@@ -23,7 +23,7 @@ console.log(id);
         setWine(foundWine);
       }
     }
-  }, [id, wines]);
+  }, [id]);
 
 
 

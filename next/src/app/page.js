@@ -7,42 +7,45 @@ import Footer from "@/components/Footer/Footer";
 import ImgAndDescription from "@/components/ImgAndDescription/ImgAndDescription";
 import Head from "next/head";
 
-const Home = () => {
+export const metadata = {
+  title: "Bodega Chico Zossi",
+  description: "Descubre la primera bodega de Tucumán y nuestros vinos excepcionales.",
+  keywords: "bodega, vino, viñedos, Tucumán, Colalao del Valle, Bodega Chico Zossi, vinos de altura, chico zossi, espumante, primer, malbec, zossi, chico",
+  openGraph: {
+    title: "Bodega Chico Zossi",
+    description: "Descubre la primera bodega de Tucumán y nuestros vinos excepcionales.",
+    url: "https://www.chicozossi.com.ar",
+    images: [
+      {
+        url: "https://www.chicozossi.com.ar/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Bodega Chico Zossi",
+      },
+    ],
+    type: "website",
+  },
+};
+
+export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bodega Chico Zossi</title>
-        <meta
-          name="description"
-          content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
-        />
-        <meta
-          name="keywords"
-          content="bodega, vino, viñedos, Tucumán, Colalao del Valle, Bodega Chico Zossi, vinos de altura"
-        />
-        <meta property="og:title" content="Bodega Chico Zossi" />
-        <meta
-          property="og:description"
-          content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
-        />
-        <meta property="og:url" content="https://www.chicozossi.com.ar" />
-        <meta
-          property="og:image"
-          content="https://www.chicozossi.com.ar/images/og-image.png"
-        />
-        <meta property="og:type" content="website" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:image" content={metadata.openGraph.images[0].url} />
+        <meta property="og:image:width" content={metadata.openGraph.images[0].width} />
+        <meta property="og:image:height" content={metadata.openGraph.images[0].height} />
+        <meta property="og:image:alt" content={metadata.openGraph.images[0].alt} />
+        <meta property="og:type" content={metadata.openGraph.type} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.chicozossi.com.ar" />
-        <link
-          rel="me"
-          href="https://www.instagram.com/bodegachicozossi/"
-          type="text/html"
-        />
-        <link
-          rel="me"
-          href="https://www.facebook.com/ChicoZossi/?locale=es_LA"
-          type="text/html"
-        />
+        <link rel="canonical" href={metadata.openGraph.url} />
+        <link rel="me" href="https://www.instagram.com/bodegachicozossi/" type="text/html" />
+        <link rel="me" href="https://www.facebook.com/ChicoZossi/?locale=es_LA" type="text/html" />
       </Head>
       <Header />
       <CarrouselProject />
@@ -54,6 +57,4 @@ const Home = () => {
       <Footer />
     </div>
   );
-};
-
-export default Home;
+}

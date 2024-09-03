@@ -28,7 +28,7 @@ const Home = () => {
         <meta property="og:url" content="https://www.chicozossi.com.ar" />
         <meta
           property="og:image"
-          content="https://www.chicozossi.com.ar/images/og-image.jpg"
+          content="https://www.chicozossi.com.ar/images/og-image.png"
         />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />

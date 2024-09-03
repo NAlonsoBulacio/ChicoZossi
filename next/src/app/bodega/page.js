@@ -8,17 +8,45 @@ import { wave4, wave5, img_about3, vinia, historia4 } from "@/assets";
 import BannerAbout from "@/components/Banners/BannerAbout";
 import ImageGallery from "@/components/ImageGallery/ImageGallery";
 import { galeria_viñedo } from "@/components/ImageGallery/index";
-import { Helmet } from "react-helmet"; 
+import Head from "next/head";  // Importa Head de next/head
+
 const AboutUs = () => {
   return (
     <div>
-      <Helmet>
-        <title>Nuestra Bodega</title>
+      <Head>
+        <title>Nuestra Bodega - Chico Zossi</title>
         <meta
           name="description"
           content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
         />
-      </Helmet>
+        <meta
+          name="keywords"
+          content="bodega, vinos, viticultura, Tucumán, Valle Calchaquí, Chico Zossi"
+        />
+        <meta property="og:title" content="Nuestra Bodega - Chico Zossi" />
+        <meta
+          property="og:description"
+          content="Descubre la primera bodega de Tucumán y nuestros vinos excepcionales."
+        />
+        <meta property="og:url" content="https://www.chicozossi.com.ar" />
+        <meta
+          property="og:image"
+          content="https://www.chicozossi.com.ar/images/og-image.png"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.chicozossi.com.ar" />
+        <link
+          rel="me"
+          href="https://www.instagram.com/bodegachicozossi/"
+          type="text/html"
+        />
+        <link
+          rel="me"
+          href="https://www.facebook.com/ChicoZossi/?locale=es_LA"
+          type="text/html"
+        />
+      </Head>
       <Header />
       <BannerAbout />
       <div className="flex flex-wrap justify-center items-center px-2 lg:px-10 xl:px-32 space-y-20 py-10">

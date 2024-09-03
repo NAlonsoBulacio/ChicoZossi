@@ -15,7 +15,7 @@ export const metadata = {
     siteName: "Bodega Chico Zossi",
     images: [
       {
-        url: "https://www.chicozossi.com.ar/images/og-image.jpg",
+        url: "https://www.chicozossi.com.ar/images/og-image.png",
         width: 800,
         height: 600,
         alt: "Bodega Chico Zossi",

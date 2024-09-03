@@ -1,6 +1,5 @@
 "use client";
 
-
 import React, { useState, useEffect } from "react";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -13,18 +12,16 @@ import { wave4, wave5 } from "@/assets";
 
 const Wine = ({ params }) => {
   const [wine, setWine] = useState(null);
-  const { id } = params;
+  const { slug } = params; // Extraer el slug de los parámetros
 
   useEffect(() => {
-    if (id && wines) { 
-      const foundWine = wines.find((wine) => wine.id === parseInt(id));
+    if (slug && wines) { 
+      const foundWine = wines.find((wine) => wine.slug === slug); // Buscar el vino usando el slug
       if (foundWine) {
         setWine(foundWine);
       }
     }
-  }, [id]);
-
-
+  }, [slug]);
 
   if (!wine) {
     return <div>Loading...</div>;

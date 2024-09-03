@@ -16,7 +16,7 @@ const wines = [
     name: "Continuación - Gran Reserva",
     title: "Gran Reserva",
     type: "malbec",
-    img:continuacion,
+    img: continuacion,
     img2: continuacion,
     lead: "ES PASADO, PRESENTE Y FUTURO...UN HOMENAJE A NUESTROS ANCESTROS Y LA REALIZACIÓN DE LOS SUEÑOS. ESPECIAL Y DIVINO. ES EL FRUTO DEL TERROIR DEL QUE VENIMOS",
     main_description:
@@ -29,6 +29,7 @@ const wines = [
     aclaration: "-Edición Limitada",
     variety: 1,
     limited_edition: "Edicion Limitada - Botella Numerada",
+    slug: "continuacion-gran-reserva",
   },
   {
     id: 2,
@@ -37,14 +38,15 @@ const wines = [
     type: "malbec",
     img: primer,
     img2: primer,
-    main_description: `"Primer" es el homenaje a nuestros antepasados, pioneros de la vitivinicultura en Tucuman. `,
+    main_description: `"Primer" es el homenaje a nuestros antepasados, pioneros de la vitivinicultura en Tucuman.`,
     description: [
-      "Bajo la práctica de agricultura orgánica continuamos con la tradición familiar, obteniendo este varietal de altura que expresa el espíritu de su incomparable origen. A la vista se presenta de color rubí intenso con reflejos que denotan su contacto con el roble. ",
+      "Bajo la práctica de agricultura orgánica continuamos con la tradición familiar, obteniendo este varietal de altura que expresa el espíritu de su incomparable origen. A la vista se presenta de color rubí intenso con reflejos que denotan su contacto con el roble.",
       "Aroma de frutos rojos maduros donde exalta la ciruela con toque especiado de pimienta negra. En boca es estructurado de taninos maduros que refuerzan el carácter varietal.",
     ],
     volume: "750ml",
     variety: 2,
     limited_edition: "Edicion Limitada - Botella Numerada",
+    slug: "primer-malbec-reserva",
   },
   {
     id: 3,
@@ -52,12 +54,13 @@ const wines = [
     type: "malbec",
     img2: malbec,
     description: [
-      `Un Malbec clásico de cepa joven, se distingue por su intenso color rubí con destellos granates, así como por sus fragantes notas florales y de frutos rojos.  `,
+      `Un Malbec clásico de cepa joven, se distingue por su intenso color rubí con destellos granates, así como por sus fragantes notas florales y de frutos rojos.`,
       "En boca, se muestra fiel a su anticipada potencia aromática con una persistencia prolongada, revelando un sabor intenso y complejo que armoniza perfectamente con sus aromas.",
       "Esta fusión de sensaciones encapsula lo mejor de la uva Malbec, enriquecida por la fuerza del terroir de Calchaquí.",
     ],
     volume: "750ml",
     variety: 3,
+    slug: "malbec",
   },
   {
     id: 4,
@@ -70,6 +73,7 @@ const wines = [
     ],
     volume: "750ml",
     variety: 3,
+    slug: "torrontes",
   },
   {
     id: 5,
@@ -78,10 +82,11 @@ const wines = [
     img: torrontesTardio,
     img2: torrontesTardio,
     description: [
-      `Este vino se destaca por su color amarillo limpio, aroma a miel y flores, sabor fresco y untuoso; cualidades que se equilibran gracias a su excelente terrior y su cuidada elaboración. `,
+      `Este vino se destaca por su color amarillo limpio, aroma a miel y flores, sabor fresco y untuoso; cualidades que se equilibran gracias a su excelente terrior y su cuidada elaboración.`,
     ],
     volume: "500ml",
     variety: 3,
+    slug: "torrontes-tardio",
   },
   {
     id: 6,
@@ -90,10 +95,11 @@ const wines = [
     img: torrontesDulce,
     img2: torrontesDulce,
     description: [
-      `Este vino se destaca por su color amarillo limpio, aroma a miel y flores, sabor fresco y untuoso; cualidades que se equilibran gracias a su excelente terrior y su cuidada elaboración. `,
+      `Este vino se destaca por su color amarillo limpio, aroma a miel y flores, sabor fresco y untuoso; cualidades que se equilibran gracias a su excelente terrior y su cuidada elaboración.`,
     ],
     volume: "750ml",
     variety: 3,
+    slug: "torrontes-dulce-natural",
   },
   {
     id: 7,
@@ -101,9 +107,10 @@ const wines = [
     type: "rosado",
     img: rosado,
     img2: rosado,
-    description: [` `],
+    description: [],
     volume: "750ml",
     variety: 3,
+    slug: "rosado-dulce-natural",
   },
   {
     id: 8,
@@ -112,11 +119,11 @@ const wines = [
     img: espumante,
     img2: espumante,
     description: [
-      `Primer espumante elaborado en Tucuman, con uvas de nuestra propia finca ¨La Perseverancia¨ - Brut Nature 
-    `,
+      `Primer espumante elaborado en Tucuman, con uvas de nuestra propia finca ¨La Perseverancia¨ - Brut Nature`,
     ],
     volume: "750ml",
     variety: 4,
+    slug: "torrontes-brut-nature",
   },
   {
     id: 9,
@@ -125,11 +132,12 @@ const wines = [
     img: rosadoTardio,
     img2: rosadoTardio,
     description: [
-      `Vino rosado elaborado a partir de dos cepas emblemas, Torrontés y Malbec, de sabor dulce otorgado de forma natural por su vendimia tardía.  
-    `,
+      `Vino rosado elaborado a partir de dos cepas emblemas, Torrontés y Malbec, de sabor dulce otorgado de forma natural por su vendimia tardía.`,
     ],
     volume: "500ml",
     variety: 3,
+    slug: "rosado-tardio",
   },
 ];
+
 export { wines };

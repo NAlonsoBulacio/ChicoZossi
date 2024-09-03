@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
@@ -73,7 +73,7 @@ const Header = () => {
                 <Image
                   src={navbar ? logo_negro : logo}
                   alt="Logo"
-                  style={{ weight: "87px" }}
+                  className="w-[87px]"
                 />
               </a>
               <nav className=" space-x-4"></nav>
@@ -139,8 +139,11 @@ const Header = () => {
 
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {continuacion?.map((wine) => (
-                        <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
-                          <a href={`/vino/${wine.id}`}>{wine.title}</a>
+                        <li
+                          key={wine.id}
+                          className="w-[200px] text-left hover:underline cursor-pointer "
+                        >
+                          <a href={`/vino/${wine.slug}`}>{wine.title}</a>
                         </li>
                       ))}
                     </ul>
@@ -149,8 +152,11 @@ const Header = () => {
                     <p className="font-lato-600"> Primer</p>
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {primer?.map((wine) => (
-                        <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
-                          <a href={`/vino/${wine.id}`}>{wine.title}</a>
+                        <li
+                          key={wine.id}
+                          className="w-[200px] text-left hover:underline cursor-pointer "
+                        >
+                          <a href={`/vino/${wine.slug}`}>{wine.title}</a>
                         </li>
                       ))}
                     </ul>
@@ -159,8 +165,11 @@ const Header = () => {
                     <p className="font-lato-600"> Espumantes</p>
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {espumantes?.map((wine) => (
-                        <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
-                          <a href={`/vino/${wine.id}`}>{wine.name}</a>
+                        <li
+                          key={wine.id}
+                          className="w-[200px] text-left hover:underline cursor-pointer "
+                        >
+                          <a href={`/vino/${wine.slug}`}>{wine.name}</a>
                         </li>
                       ))}
                     </ul>
@@ -170,8 +179,11 @@ const Header = () => {
                   <p className="font-lato-600"> Varietales Jovenes</p>
                   <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                     {varietalesJovenes?.map((wine) => (
-                      <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
-                        <a href={`/vino/${wine.id}`}>{wine.name}</a>
+                      <li
+                        key={wine.id}
+                        className="w-[200px] text-left hover:underline cursor-pointer "
+                      >
+                        <a href={`/vino/${wine.slug}`}>{wine.name}</a>
                       </li>
                     ))}
                   </ul>
@@ -248,7 +260,7 @@ const Header = () => {
                     className={`text-lg flex flex-col gap-1 text-left`}
                   >
                     <li className="headerSedenavLi">
-                      <a href="/vino/1">Gran Reserva</a>
+                      <a href="/vino/continuacion-gran-reserva">Gran Reserva</a>
                     </li>
                   </motion.ul>
                 ) : (
@@ -270,8 +282,9 @@ const Header = () => {
                     transition={{ duration: 0.4 }}
                     className="text-lg flex flex-col gap-1 text-left"
                   >
-                    <li className="headerSedenavLi" />
-                    <a href="/vino/2">Malbec Reserva</a>
+                    <li className="headerSedenavLi">
+                      <a href="/vino/primer-malbec-reserva">Malbec Reserva</a>
+                    </li>
                   </motion.ul>
                 )}
               </div>
@@ -291,22 +304,26 @@ const Header = () => {
                     className="text-lg flex flex-col gap-1 text-left"
                   >
                     <li className="headerSedenavLi">
-                      <a href="/vino/3">Malbec</a>
+                      <a href="/vino/malbec">Malbec</a>
                     </li>
                     <li className="headerSedenavLi">
-                      <a href="/vino/4">Torrontés</a>
+                      <a href="/vino/torrontes">Torrontés</a>
                     </li>
                     <li className="headerSedenavLi">
-                      <a href="/vino/5">Torrontés Tardío</a>
+                      <a href="/vino/torrontes-tardio">Torrontés Tardío</a>
                     </li>
                     <li className="headerSedenavLi">
-                      <a href="/vino/6">Torrontés Dulce Natural</a>
+                      <a href="/vino/torrontes-dulce-natural">
+                        Torrontés Dulce Natural
+                      </a>
                     </li>
                     <li className="headerSedenavLi">
-                      <a href="/vino/9">Rosado Tardío</a>
+                      <a href="/vino/rosado-tardio">Rosado Tardío</a>
                     </li>
                     <li className="headerSedenavLi">
-                      <a href="/vino/7">Rosado Dulce Natural</a>
+                      <a href="/vino/rosado-dulce-natural">
+                        Rosado Dulce Natural
+                      </a>
                     </li>
                   </motion.ul>
                 )}
@@ -327,11 +344,14 @@ const Header = () => {
                     className="text-sm flex flex-col gap-1 text-left"
                   >
                     <li className="headerSedenavLi">
-                      <a href="/vino/8">Torrontes Brut Nature</a>
+                      <a href="/vino/torrontes-brut-nature">
+                        Torrontes Brut Nature
+                      </a>
                     </li>
                   </motion.ul>
                 )}
               </div>
+
               <ul className="text-gray-200 flex flex-col gap-2 text-left my-2">
                 <li className="font-normal hover:font-bold items-center text-2xl text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0">
                   <a href="/historia">Historia</a>

@@ -41,87 +41,92 @@ const Footer = () => {
           <div className="w-full flex flex-wrap justify-start items-center space-y-[4px] text-center">
             <div className="w-full ">
               <a
-                href="/vino/1"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/continuacion-gran-reserva"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Continuación - Gran Reserva
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/2"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/primer-malbec-reserva"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Primer - Malbec Reserva
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/3"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/malbec"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Malbec
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/4"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/torrontes"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Torrontés
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/5"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/torrontes-tardio"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Torrontés tardío
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/6"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/torrontes-dulce-natural"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Torrontés Dulce Natural
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/9"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/rosado-tardio"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
-                Rosado Tardio
+                Rosado Tardío
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/7"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/rosado-dulce-natural"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Rosado Dulce Natural
               </a>
             </div>
             <div className="w-full ">
               <a
-                href="/vino/9"
-                className="w-full text-left text-md text-gray-500 hover:text-gray-300  duration-200"
+                href="/vino/torrontes-brut-nature"
+                className="w-full text-left text-md text-gray-500 hover:text-gray-300 duration-200"
               >
                 Torrontes Brut Nature
               </a>
             </div>
           </div>
           <div className="w-full flex justify-center items-center space-x-4">
-            <BiLogoLinkedin className=" text-white text-2xl" />
-            <BiLogoFacebook className=" text-white text-2xl" />
-            <AiOutlineInstagram className=" text-white text-2xl" />
+            <a href="https://www.linkedin.com/in/tu-perfil">
+              <BiLogoLinkedin className="text-white text-2xl" />
+            </a>
+            <a href="https://www.facebook.com/ChicoZossi/?locale=es_LA">
+              <BiLogoFacebook className="text-white text-2xl" />
+            </a>
+            <a href="https://www.instagram.com/bodegachicozossi/">
+              <AiOutlineInstagram className="text-white text-2xl" />
+            </a>
           </div>
           <div className="w-full flex justify-center items-center">
             <h1 className="text-gray-300 text-center">
               {" "}
               ® Chico Zossi 2024, todos los derechos reservados.
-          
             </h1>
           </div>
         </div>
@@ -143,7 +148,7 @@ const Footer = () => {
             </div>
             <div className="w-full">
               <a
-                  href="mailto:infobodegachicozossi@gmail.com"
+                href="mailto:infobodegachicozossi@gmail.com"
                 target="_blank"
                 className="flex justify-center items-start"
               >
@@ -161,7 +166,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-gray-300 ">
-      BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS 
+        BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS
       </div>
     </div>
   );

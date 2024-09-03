@@ -14,7 +14,6 @@ import { wave4, wave5 } from "@/assets";
 const Wine = ({ params }) => {
   const [wine, setWine] = useState(null);
   const { id } = params;
-console.log(id);
 
   useEffect(() => {
     if (id && wines) { 

@@ -149,7 +149,7 @@ const Header = () => {
                     <p className="font-lato-600"> Primer</p>
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {primer?.map((wine) => (
-                        <li className="w-[200px] text-left hover:underline cursor-pointer ">
+                        <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
                           <a href={`/vino/${wine.id}`}>{wine.title}</a>
                         </li>
                       ))}
@@ -159,7 +159,7 @@ const Header = () => {
                     <p className="font-lato-600"> Espumantes</p>
                     <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                       {espumantes?.map((wine) => (
-                        <li className="w-[200px] text-left hover:underline cursor-pointer ">
+                        <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
                           <a href={`/vino/${wine.id}`}>{wine.name}</a>
                         </li>
                       ))}
@@ -170,7 +170,7 @@ const Header = () => {
                   <p className="font-lato-600"> Varietales Jovenes</p>
                   <ul className="flex flex-wrap justify-start items-center space-y-2 text-sm">
                     {varietalesJovenes?.map((wine) => (
-                      <li className="w-[200px] text-left hover:underline cursor-pointer ">
+                      <li key={wine.id} className="w-[200px] text-left hover:underline cursor-pointer ">
                         <a href={`/vino/${wine.id}`}>{wine.name}</a>
                       </li>
                     ))}

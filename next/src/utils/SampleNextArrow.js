@@ -10,7 +10,7 @@ const SampleNextArrow = (props) => {
     >
       <span className="text-xl">
         <FaLongArrowAltRight />
-      </span>
+      </span> 
     </div>
   );
 };
